@@ -1,0 +1,10 @@
+<form #simpleForm="ngForm" (ngSubmit)="getValues(simpleForm.value)" align="center">
+
+    <h1>Register Here:</h1>
+    <label>
+<input type="text" ngModel name="user" placeholder=" Enter Name"></label><br><br>
+    <input type="text" ngModel name="mail" placeholder=" Enter Email"><br><br>
+    <input type="text" ngModel name="mn" placeholder=" Enter Mo No"><br><br>
+    <input type="text" ngModel name="pass" placeholder=" Enter Password"><br><br>
+    <button type="submit" ngModel name="submit">Submit</button><br><br>
+</form>
